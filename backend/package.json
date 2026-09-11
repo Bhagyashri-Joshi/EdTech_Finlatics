@@ -1,0 +1,22 @@
+{
+  "name": "engageai-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test:phase1": "node src/phase1-test.js",
+    "test:phase2": "node src/phase2-test.js",
+    "test:phase4": "node src/phase4-test.js",
+    "test:phase5": "node src/phase5-test.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.23.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "engageai-phase1",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "test:phase1": "npm --prefix backend run test:phase1",
+    "test:phase2": "npm --prefix backend run test:phase2",
+    "build": "npm --prefix frontend run build",
+    "test:phase4": "npm --prefix backend run test:phase4",
+    "test:phase5": "npm --prefix backend run test:phase5"
+  }
+}

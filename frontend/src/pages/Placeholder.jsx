@@ -1,0 +1,3 @@
+export default function Placeholder({ title, description }) {
+  return <div><div className="mb-6"><h1 className="text-2xl font-bold tracking-tight text-slate-900">{title}</h1><p className="mt-1 text-sm text-slate-500">{description}</p></div><div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"><div className="mb-3 h-10 w-10 rounded-xl bg-blue-50"></div><h2 className="font-semibold">Foundation ready</h2><p className="mt-2 max-w-xl text-sm leading-6 text-slate-500">This route is intentionally a Phase 1 placeholder. Dashboard metrics, student engagement logic, charts, and AI analysis are not implemented yet.</p></div></div>;
+}
